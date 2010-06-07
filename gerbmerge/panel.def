@@ -1,0 +1,53 @@
+Row {
+    Col {
+        extruder
+        extruder
+        Row {
+            razor
+            razor
+        }
+    }
+    Col {
+        motherboard
+        motherboard
+    }
+    Col {
+        Row {
+            stepperMotor
+            stepperMotor
+        }
+        Row {
+            stepperMotor
+            stepperMotor
+        }
+        Row {
+            stepperMotor
+            stepperMotor
+        }
+    }
+}
+Row {
+    Col {
+        Row {
+            razor
+            razor
+        }
+        Row {
+            stepperMotor
+            Col {
+                arduino Rotate
+                arduino Rotate
+                arduino Rotate
+            }
+        }
+    }
+    motherboard
+    motherboard
+}
+Row {
+    stepperMotor
+    stepperMotor
+    stepperMotor
+    stepperMotor
+    stepperMotor
+}
